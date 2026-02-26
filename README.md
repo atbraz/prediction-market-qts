@@ -15,14 +15,35 @@ FINM 33150 QTS Winter 2026 - Final Project Group Live: M
 
 ### Installing dependencies
 
-Using uv[^1]
+1. Using uv[^1]
 [^1]: [Installation](https://docs.astral.sh/uv/getting-started/installation/)
 ```bash
 uv sync
 ```
 
+2. See 1.
+
+## Development
+
+```bash
+make sync      # install dependencies
+make test      # run tests
+make lint      # ruff check
+make clean     # remove caches and build artifacts
+```
+
+## Project Structure
+
+```
+src/prediction_market_qts/   # logic goes here
+scripts/                     # standalone scripts
+notebooks/                   # jupyter notebooks
+tests/                       # pytest suite
+data/                        # gitignored
+```
+
 ## Acknowledgements
-[The Microstructure of Wealth Transfer in Prediction Markets](https://www.jbecker.dev/research/prediction-market-microstructurehttps://www.jbecker.dev/research/prediction-market-microstructure) - Jonathan Becker
+[The Microstructure of Wealth Transfer in Prediction Markets](https://www.jbecker.dev/research/prediction-market-microstructure) - Jonathan Becker
 
 
 ## License
