@@ -15,6 +15,8 @@ FINM 33150 QTS Winter 2026 - Final Project Group Live: M
 
 ### Installing dependencies
 
+Using uv[^1]
+[^1]: [Installation](https://docs.astral.sh/uv/getting-started/installation/)
 ```bash
 uv sync
 ```
